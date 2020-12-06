@@ -46,6 +46,7 @@ NSString *a2 = array2[1];
 - 値をキーに対応させてまとめたもの
 - 可変の辞書を使用したいときはNSMutableDictionaryを使用する
 - JSONのオブジェクトはNSDictionaryに対応する
+※配列のインデックスがキーになった感じ
 ```objc
 NSDictionary *dictionary = @{
        @"anObject" : someObject,
